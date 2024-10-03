@@ -1,0 +1,19 @@
+html {
+  color: black;
+  background-color: burlywood;
+  font-family: Arial, sans-serif;
+}
+
+.header-div {
+  background-color: black;
+  display: flex;
+  margin: 0;
+}
+
+.logo {
+  color: white;
+  font-weight: bolder; 
+  font-size: 25px;
+  justify-self: flex-start;
+
+}
