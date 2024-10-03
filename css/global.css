@@ -1,7 +1,9 @@
-html {
+body {
   color: black;
   background-color: rgb(223, 228, 237);
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* header part */
@@ -9,6 +11,7 @@ html {
   display: flex;
   flex-direction: row; 
   background-color: rgb(30, 57, 99);
+  width: 100%;
 }
 
 .logo {
