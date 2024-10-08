@@ -1,39 +1,38 @@
-body {
-  color: black;
-  background-color: rgb(223, 228, 237);
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* header part */
-.header-div {
-  display: flex;
-  flex-direction: row; 
-  background-color: rgb(30, 57, 99);
-  width: 100%;
-}
-
-.logo {
-  color: white;
-  font-weight: bolder; 
-  font-size: 25px;
-  justify-self: flex-start;
-  margin-left: 5rem;
-}
-
-/* intro part */
-.intro-container {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-style: solid;
-  height: 500px;
-  width: 500px;
-}
-
-.profile-name {
-  font-weight: bolder;
-  font-size: 16px;
-  justify-self: center;
+/* mobile screen layout*/
+@media (min-width: 700px) {
+   body {
+    color: black;
+    background-color: rgb(223, 228, 237);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /* header part */
+  .header-div {
+    display: flex;
+    flex-direction: row; 
+    background-color: rgb(30, 57, 99);
+    width: 100%;
+  }
+  .logo {
+    color: white;
+    font-weight: bolder; 
+    font-size: 25px;
+    justify-self: flex-start;
+    margin-left: 5rem;
+  }
+  /* intro part */
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    height: 500px;
+    width: 500px;
+  }
+  .profile-name {
+    font-weight: bolder;
+    font-size: 16px;
+    justify-self: center;
+  } 
 }
