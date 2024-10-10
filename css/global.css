@@ -1,38 +1,24 @@
-/* mobile screen layout*/
-@media (min-width: 700px) {
-   body {
-    color: black;
-    background-color: rgb(223, 228, 237);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/*body container*/
+.body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-  /* header part */
+
+/* mobile screen layout*/
+@media screen and (max-width: 750px) {
+  .body {
+    max-width: 750px;
+  }
   .header-div {
     display: flex;
-    flex-direction: row; 
-    background-color: rgb(30, 57, 99);
-    width: 100%;
-  }
-  .logo {
+    justify-content: center;
     color: white;
-    font-weight: bolder; 
-    font-size: 25px;
-    justify-self: flex-start;
-    margin-left: 5rem;
+    background-color: #212959;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  /* intro part */
-  .intro-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-style: solid;
-    height: 500px;
-    width: 500px;
-  }
-  .profile-name {
-    font-weight: bolder;
-    font-size: 16px;
-    justify-self: center;
-  } 
 }
