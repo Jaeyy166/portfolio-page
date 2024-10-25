@@ -8,6 +8,7 @@
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../images/background-pic.jpg);
+    background-attachment: fixed;
   }
 
 /* mobile screen layout*/
@@ -23,7 +24,7 @@
   .header-div {
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
     background-color: wheat;
     margin: auto;
     width: 100%;
@@ -55,8 +56,9 @@
     font-weight: bolder;
   }
  /*projects container section*/
-  .project-container {
+  .projects-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     color: white;
@@ -70,9 +72,17 @@
     font-weight: bolder;
   }
   .project1-container {
+    color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: wheat;
+    justify-items: center;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .project1-image {
+    display: flex;
+    justify-self: center;
   }
  
 }
