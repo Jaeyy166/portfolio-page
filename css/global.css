@@ -71,7 +71,8 @@
     font-size: 20px;
     font-weight: bolder;
   }
-  .project1-container {
+  /*individual projects container and layout*/
+  .project-container {
     color: black;
     display: flex;
     flex-direction: column;
@@ -79,10 +80,14 @@
     justify-items: center;
     padding: 30px;
     border-radius: 20px;
+    margin-bottom: 20px;
   }
-  .project1-image {
+  .project-image {
     display: flex;
     justify-self: center;
+  }
+  .projects-container a {
+    text-decoration: none;
   }
  
 }
