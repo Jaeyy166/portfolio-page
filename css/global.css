@@ -91,5 +91,14 @@
     text-decoration: none;
     font-weight: bolder;
   }
+  /*future projects*/
+  .upcomingProjects-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+  }
  
 }
