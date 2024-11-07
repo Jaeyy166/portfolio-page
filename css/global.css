@@ -93,12 +93,45 @@
   }
   /*future projects*/
   .upcomingProjects-container {
-    color: white;
+    background-color: peachpuff;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
 
   }
- 
+  .upcoming-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .upcomingProjects-container li {
+    margin-bottom: 5px;
+  }
+  /*about me section*/
+  .about-container {
+    background-color: peachpuff;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: 0 auto;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  /*footer section*/
+  .footer {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+  }
 }
